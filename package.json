@@ -1,0 +1,25 @@
+{
+  "name": "baokim",
+  "repository": {
+    "url": "https://github.com/duongvanba/firebase-easy-hooks"
+  },
+  "version": "1.0.11",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "got": "^11.8.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b ."
+  },
+  "author": "",
+  "license": "ISC"
+}
